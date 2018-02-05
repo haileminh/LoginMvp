@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initFragment();
     }
-
     private void initFragment() {
         loginRegisterFragment = new LoginRegisterFragment();
         FragmentManager manager = getSupportFragmentManager();
